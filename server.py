@@ -1,6 +1,6 @@
-
 import socket
 import sys
+
 
 # TCP/IP Socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -33,4 +33,3 @@ while True:
         print("Error {}".format(e.message))
     finally:
         connection.close()
-
