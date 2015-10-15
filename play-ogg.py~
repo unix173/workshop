@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+import pyglet
+song = pyglet.media.load('motion-sound.ogg')
+song.play()
+pyglet.app.run()
